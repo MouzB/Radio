@@ -1,0 +1,24 @@
+1. What is OWASP and what is its primary mission as described in the article?
+
+OWASP är en ideell organisation som arbetar för att förbättra mjukvarusäkerhet genom fria resurser som riktlinjer och verktyg.
+
+2. Explain the concept of "Injection". Provide an example of how an injection attack could compromise a web application's security.
+
+En attack där skadlig kod, som t.ex. SQL-injektion, infogas för att manipulera en applikation.
+Exempel: Stjäla data genom att köra skadliga SQL-frågor.
+
+3. Explain two strategies to prevent Broken Authentication vulnerabilities.
+
+1. Använd stark lösenordshantering och kontolåsning.
+2. Implementera multi-faktor-autentisering (MFA).
+
+4. Describe the potential consequences of Insecure Deserialization in web applications. How can developers protect against such attacks?
+
+Kan leda till fjärrkodexekvering eller dataläckor.
+Ett skydd mot detta är att undvika deserialisera opålitlig data och validera all input.
+
+5. Briefly define Cross-Site Scripting (XSS) as outlined in the article and list two methods suggested in the article to prevent XSS attacks in web applications.
+
+En sårbarhet där skadlig kod körs i användarens webbläsare.
+1.Sanera och validera användargenererat innehåll.
+2.Använd moderna ramverk som ReactJS eller Ruby on Rails för inbyggt skydd mot XSS.
